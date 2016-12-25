@@ -153,7 +153,7 @@ public class StaffMainMenu extends javax.swing.JFrame {
     }//GEN-LAST:event_jUpdateRoomActionPerformed
 
     private void jRegisterActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRegisterActionPerformed
-      //  new StaffRegister().setVisible(true);
+        new StaffRegister().setVisible(true);
     }//GEN-LAST:event_jRegisterActionPerformed
 
     private void jViewRoomActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jViewRoomActionPerformed
