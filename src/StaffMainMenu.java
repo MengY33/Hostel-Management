@@ -169,7 +169,7 @@ public class StaffMainMenu extends javax.swing.JFrame {
     }//GEN-LAST:event_jDeleteRoomActionPerformed
 
     private void jDeleteStaffActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jDeleteStaffActionPerformed
-      //  new DeleteStaff().setVisible(true);
+        new DeleteStaff().setVisible(true);
     }//GEN-LAST:event_jDeleteStaffActionPerformed
 
     /**
