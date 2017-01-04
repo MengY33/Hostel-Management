@@ -94,6 +94,11 @@ public class StaffMainMenu extends javax.swing.JFrame {
 
         jLogout.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         jLogout.setText("Logout");
+        jLogout.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jLogoutActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -171,6 +176,10 @@ public class StaffMainMenu extends javax.swing.JFrame {
     private void jDeleteStaffActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jDeleteStaffActionPerformed
         new DeleteStaff().setVisible(true);
     }//GEN-LAST:event_jDeleteStaffActionPerformed
+
+    private void jLogoutActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jLogoutActionPerformed
+        //this.dispose();
+    }//GEN-LAST:event_jLogoutActionPerformed
 
     /**
      * @param args the command line arguments
