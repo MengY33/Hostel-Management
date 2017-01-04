@@ -13,8 +13,8 @@ import javax.swing.JOptionPane;
  */
 public class LoginStud extends javax.swing.JFrame {
     
-    String adminUser = "admin";
-    String adminPassword = "admin";
+    String adminUser = "student";
+    String adminPassword = "student";
     
     
     
