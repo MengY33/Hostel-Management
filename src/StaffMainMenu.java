@@ -178,7 +178,7 @@ public class StaffMainMenu extends javax.swing.JFrame {
     }//GEN-LAST:event_jDeleteStaffActionPerformed
 
     private void jLogoutActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jLogoutActionPerformed
-        //this.dispose();
+        this.dispose();
     }//GEN-LAST:event_jLogoutActionPerformed
 
     /**
