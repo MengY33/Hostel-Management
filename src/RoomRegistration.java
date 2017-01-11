@@ -138,7 +138,7 @@ public class RoomRegistration extends javax.swing.JFrame {
 
     private void jRegisterActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRegisterActionPerformed
         if(!jRoomType.getText().isEmpty() && !jPrice.getText().isEmpty()){
-            JOptionPane.showMessageDialog(null,"You have succesfully register new room.","Room Register Success",JOptionPane.INFORMATION_MESSAGE);
+            JOptionPane.showMessageDialog(null,"You have succesfully register new room.","Room Registeration Success",JOptionPane.INFORMATION_MESSAGE);
         }
     }//GEN-LAST:event_jRegisterActionPerformed
 
