@@ -20,7 +20,7 @@ public class StaffRegister extends javax.swing.JFrame {
     
     public StaffRegister() {
         initComponents();
-        this.setTitle("Staff Registration");
+        this.setTitle("Staff Registration"); //acvscs
         jLabelseePassword.setVisible(false);
         this.setLocationRelativeTo(null);
         this.setResizable(false);
