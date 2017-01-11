@@ -20,7 +20,7 @@ public class CheckRoomAvailability extends javax.swing.JFrame {
     /**
      * Creates new form RoomRegistration
      */
-    public CheckRoomAvailability() {
+    public CheckRoomAvailability() {    //Check Room Availability function
         initComponents();
         
         String roomArray [] = {
