@@ -3,7 +3,6 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Student;
 
 import javax.swing.JOptionPane;
 
@@ -173,7 +172,7 @@ public class Payment extends javax.swing.JFrame {
         }
         
         else{
-             JOptionPane.showMessageDialog(null,"Status Not Approved.Please wait for approvement.","Payment Failed",JOptionPane.ERROR_MESSAGE);
+             JOptionPane.showMessageDialog(null,"Status Not Approved.Please wait for approvement!","Payment Failed",JOptionPane.ERROR_MESSAGE);
         }
     }//GEN-LAST:event_jbPaymentActionPerformed
 
