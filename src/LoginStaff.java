@@ -13,8 +13,8 @@ import javax.swing.JOptionPane;
  */
 public class LoginStaff extends javax.swing.JFrame {
     
-    String adminUser = "admin";
-    String adminPassword = "admin";
+    String adminUser = "admin";     //This is username
+    String adminPassword = "admin"; //This is the password
     
     
     
