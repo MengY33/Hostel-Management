@@ -131,7 +131,7 @@ public class LoginStaff extends javax.swing.JFrame {
        
         if(jtfUsername.getText() != null &&jpfPassword.getText() != null){
             if(jtfUsername.getText().contains(adminUser) && jpfPassword.getText().contains(adminPassword)){
-                JOptionPane.showMessageDialog(null,"You have succesfully login.","Login Success",JOptionPane.INFORMATION_MESSAGE);
+                JOptionPane.showMessageDialog(null,"You have succesfully login!","Login Success",JOptionPane.INFORMATION_MESSAGE);
                 this.dispose();
                 new StaffMainMenu().setVisible(true);
             }
