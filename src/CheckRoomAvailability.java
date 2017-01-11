@@ -32,7 +32,7 @@ public class CheckRoomAvailability extends javax.swing.JFrame {
         for(String str : roomArray) {
           jRoomList.addItem(str);
         }
-       this.setTitle("View Room Details");      
+       this.setTitle("View Room Details");      //Set the title   
         this.setLocationRelativeTo(null);
         this.setResizable(false);
     }
