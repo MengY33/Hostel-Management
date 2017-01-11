@@ -169,7 +169,7 @@ public class StudentRegister extends javax.swing.JFrame {
             }
             
             else{
-                jLabelseePassword.setText("no password");
+                jLabelseePassword.setText("no password!");
             }
         }
         
